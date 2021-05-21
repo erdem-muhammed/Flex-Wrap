@@ -1,0 +1,50 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container
+{
+	width: 75%;
+	border: 2px solid #dadce0;
+	padding: 40px 30px 50px 30px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box
+{	
+	text-align: center;
+    padding: 3px 3px;
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bildBox
+{
+	width: 120px;
+	height: 120px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bildBox img
+{
+    width: 90px;
+    height: 90px;
+}
+.box p
+{
+	color: #919191;
+}

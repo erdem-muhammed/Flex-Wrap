@@ -1,0 +1,56 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container
+{
+	width: 75%;
+	border: 2px solid #dadce0;
+	padding: 40px 30px 50px 30px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.box
+{	
+	text-align: center;
+    padding: 3px 3px;
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bildBox
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.bildBox img
+{
+	height: 90px;
+	width: 90px;
+}
+@media only screen and (max-device-width: 768px) {
+  .bildBox{
+    background: red;
+  }
+.box p
+{
+	color: #919191;
+}
